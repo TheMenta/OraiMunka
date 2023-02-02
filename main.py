@@ -27,3 +27,46 @@ def jatekos_vesztett_teszt():
     else:
         print("nem sikerult")
 teszt_esetek()
+def gep_vesztett_teszt():
+    jatekos = [10,9]
+    gep = [10,9,3]
+    vart_eredmeny ="gep vesztett"
+    kapott_eredmeny = eredmeny(gep,jatekos)
+    if kapott_eredmeny == vart_eredmeny:
+        print("teszt sikeres")
+    else:
+        print("nem sikerult")
+teszt_esetek()
+
+
+def dontetlen_teszt():
+    jatekos = [10,9]
+    gep = [10,9,]
+    vart_eredmeny ="dontetlen"
+    kapott_eredmeny = eredmeny(gep,jatekos)
+    if kapott_eredmeny == vart_eredmeny:
+        print("teszt sikeres")
+    else:
+        print("nem sikerult")
+teszt_esetek()
+def jatekos_kisebblapok_teszt():
+    jatekos = [10,2]
+    gep = [10,9,]
+    vart_eredmeny ="jatekos vesztett"
+    kapott_eredmeny = eredmeny(gep,jatekos)
+    if kapott_eredmeny == vart_eredmeny:
+        print("teszt sikeres")
+    else:
+        print("nem sikerult")
+teszt_esetek()
+
+def gep_kisebblapok_teszt():
+    jatekos = [10,9,]
+    gep = [10,2]
+    vart_eredmeny ="gep vesztett"
+    kapott_eredmeny = eredmeny(gep,jatekos)
+    if kapott_eredmeny == vart_eredmeny:
+        print("teszt sikeres")
+    else:
+        print("nem sikerult")
+teszt_esetek()
