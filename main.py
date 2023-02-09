@@ -17,6 +17,10 @@ def eredmeny(g_lapok:[int],j_lapok:[int]):
         allapot = "gep nyert"
     elif 21 > j_pontok > g_pontok:
         allapot = "jatekos nyert"
+    elif j_pontok == g_pontok:
+        print("döntetlen")
+
+
     return allapot
 
 def lapok_osszege(lapok: [int]):
