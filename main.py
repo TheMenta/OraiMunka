@@ -1,5 +1,10 @@
 #megoldas
+import random
 def eredmeny(g_lapok:[int],j_lapok:[int]):
+    deck= []
+    for i in range(4):
+        lapok = random.randint(1,14)
+        deck.append(lapok)
     j_pontok = lapok_osszege(j_lapok)
     g_pontok = lapok_osszege(g_lapok)
     allapot = " "
